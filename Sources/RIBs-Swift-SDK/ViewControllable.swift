@@ -14,7 +14,22 @@
 //  limitations under the License.
 //
 
-import Foundation
+#if os(iOS) || os(watchOS) || os(tvOS)
+    import UIKit
+    public typealias Window = UIWindow
+    public typealias ViewController = UIViewController
+    public typealias View = UIView
+    public typealias Color = UIColor
+    public typealias Button = UIButton
+#elseif os(macOS)
+    import Cocoa
+    public typealias Window = NSWindow
+    public typealias ViewController = NSViewController
+    public typealias Color = NSColor
+    public typealias Button = NSButton
+    public typealias View = NSView
+#endif
+
 
 /// Basic interface between a `Router` and the UIKit `UIViewController`.
 public protocol ViewControllable: AnyObject {

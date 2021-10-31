@@ -14,7 +14,11 @@
 //  limitations under the License.
 //
 
-import Foundation
+#if os(iOS) || os(watchOS) || os(tvOS)
+    import UIKit
+#elseif os(macOS)
+    import Cocoa
+#endif
 
 /// The root `Router` of an application.
 public protocol LaunchRouting: ViewableRouting {
