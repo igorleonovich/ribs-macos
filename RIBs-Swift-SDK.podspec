@@ -8,11 +8,13 @@ Pod::Spec.new do |s|
   s.social_media_url = 'http://github.com/igorleonovich'
   s.source = { :git => 'https://github.com/igorleonovich/ribs-swift-sdk', :tag => '0.9.3' }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
   s.osx.deployment_target = '10.12'
   s.tvos.deployment_target = '10.0'
 
-  s.source_files = 'Source/*.swift'
+  s.source_files = 'Sources/**/*.swift'
+  
+  s.dependency 'RxSwift'
 
-  s.swift_version = '5.0'
+  s.swift_version = '5.1'
 end
