@@ -1,5 +1,5 @@
 //
-//  ribs-swift-sdk.swift
+//  RIBs-Swift-SDK.swift
 //  
 //
 //  Created by Igor Leonovich on 31/10/2021
