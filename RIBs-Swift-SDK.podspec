@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.swift'
   
   s.dependency 'RxSwift'
+  s.dependency 'RxRelay'
 
   s.swift_version = '5.1'
 end
