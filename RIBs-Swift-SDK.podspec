@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   
   s.dependency 'RxSwift'
   s.dependency 'RxRelay'
+  s.dependency 'RxCocoa'
 
   s.swift_version = '5.1'
 end
