@@ -1,3 +1,3 @@
-# ribs-swift-sdk
+# RIBs Swift SDK
 
-A description of this package.
+Uber RIBs iOS/Android Mobile Architecture: Now for macOS
