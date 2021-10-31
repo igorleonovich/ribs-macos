@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "ribs-swift-sdk",
             dependencies: []),
-        .testTarget(
-            name: "ribs-swift-sdkTests",
-            dependencies: ["ribs-swift-sdk"]),
     ]
 )
