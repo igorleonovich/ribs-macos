@@ -1,5 +1,4 @@
-# RIBs Swift SDK
+# RIBs Swift SDK (macOS)
+Uber RIBs iOS/Android Mobile Architecture: macOS Adaptation
 
-## Uber RIBs iOS/Android Mobile Architecture: Now for macOS
-
-##### Current RIBs version: **0.9.3**
+#### RIBs version: **0.9.3**
